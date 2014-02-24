@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/ic_alarm_add"/>
+
+    <TextView
+        android:id="@+id/alarmType"
+        android:textColor="@color/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/alarmTime"
+        android:textColor="@color/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alarmType"
+        android:layout_below="@+id/alarmType"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/alarmRepeat"
+        android:textColor="@color/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alarmTime"
+        android:layout_below="@+id/alarmTime"
+        android:text="" />
+
+</RelativeLayout>

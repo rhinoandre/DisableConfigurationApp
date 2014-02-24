@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rhino.project.disableconfigurationapp"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+		
+		<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+		<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+		<uses-permission android:name="android.permission.WAKE_LOCK" />
+		
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        
+        <activity android:name=".view.DisableConfiguration"
+            android:exported="false"
+            android:label="@string/title_activity_disable_configuration">
+            <intent-filter>
+                <action android:name="rhino.app.alarm_management"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".view.WeakRepeatAdapter"
+		    android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.InitialActivity"
+            android:label="@string/initial_activity" 
+            android:theme="@android:style/Theme.Black">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name=".boadcast.DisableAlarmBroadcast"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="ALARME"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".controller.service.StoreAlarmsService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="MANAGER_CONFIGUTARION.STORE_ALARM_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

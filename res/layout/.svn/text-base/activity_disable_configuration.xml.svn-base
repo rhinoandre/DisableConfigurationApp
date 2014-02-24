@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TimePicker
+        android:id="@+id/timeDisableTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/activeCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timeDisableTP"
+        android:layout_marginTop="114dp"
+        android:text="@string/activeCB" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/activeCB"
+        android:onClick="setAlarmDisbleWifi"
+        android:text="@string/buttonSetAlarm" />
+
+    <Button
+        android:id="@+id/repeatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timeDisableTP"
+        android:layout_marginTop="48dp"
+        android:text="@string/repeatButton"
+        android:onClick="openRepeatList" />
+
+</RelativeLayout>

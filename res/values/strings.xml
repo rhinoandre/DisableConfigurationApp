@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">DisableConfigurationApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_disable_configuration">DisableConfiguration</string>
+    <string name="buttonSetAlarm">Criar Alarme</string>
+    <string name="ic_alarm_add">Adicionar novo alarme</string>
+    <string name="ic_settings">Configurações</string>
+    <string name="initial_activity">Tela Inicial</string>
+	<string name="activeCB">Ativar</string>
+	<string name="wifi_enabled">Wifi: Habilitar</string>
+	<string name="wifi_disabled">Wifi: Desabilitar</string>
+	<string name="yes">Sim</string>
+	<string name="no">Não</string>
+	<string name="repeatButton">Repetir</string>
+	
+	<string name="sunday">Domingo</string>
+	<string name="monday">Segunda</string>
+	<string name="tuesday">Terça</string>
+	<string name="wednesday">Quarta</string>
+	<string name="thrusday">Quinta</string>
+	<string name="friday">Sexta</string>
+	<string name="saturday">Sábado</string>
+</resources>

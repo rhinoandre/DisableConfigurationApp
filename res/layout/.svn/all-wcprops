@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rhinoandroid/!svn/ver/22/DisableConfigurationApp/res/layout
+END
+list_weak_repaet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/rhinoandroid/!svn/ver/22/DisableConfigurationApp/res/layout/list_weak_repaet.xml
+END
+initial_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/rhinoandroid/!svn/ver/18/DisableConfigurationApp/res/layout/initial_activity.xml
+END
+item_list_alarm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/rhinoandroid/!svn/ver/18/DisableConfigurationApp/res/layout/item_list_alarm.xml
+END
+activity_disable_configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rhinoandroid/!svn/ver/22/DisableConfigurationApp/res/layout/activity_disable_configuration.xml
+END
+alert_dialog_cancel_alarm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/rhinoandroid/!svn/ver/27/DisableConfigurationApp/res/layout/alert_dialog_cancel_alarm.xml
+END
